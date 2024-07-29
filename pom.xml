@@ -77,4 +77,11 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>live01</name>
+      <url>http://13.126.44.62:8081/repository/live01/</url>
+    </repository>
+  </distributionManagement>
 </project>
